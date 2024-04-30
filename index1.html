@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RK + JSS</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="tailwind.config.js">
+</head>
+
+<body>
+    <header class="">
+
+        <nav class="md:mx-24 mx-auto">
+            <div class="navbar">
+                <div class="flex-1">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li class="hover:text-orange-500"><a href="index1.html">Home</a></li>
+                            <li class="hover:text-orange-500"><a href="index2.html">About Us</a></li>
+                            <li class="hover:text-orange-500"><a>Services</a></li>
+                            <li class="hover:text-orange-500"><a>charset studies</a></li>
+                            <li class="hover:text-orange-500"><a>Testimonial</a></li>
+                            <li class="hover:text-orange-500"><a>Blog</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <img class="w-[30px]" src="/image/Vector (1).png" alt="">
+                        <a class="text-xl font-semibold pr-10">OutreachSmartly</a>
+
+                    </div>
+                </div>
+                <div class="navbar-center  hidden lg:flex">
+                    <ul class="menu menu-horizontal  px-1">
+                        <li class="hover:text-orange-500"><a href="index1.html">Home</a></li>
+                        <li class="hover:text-orange-500"><a href="index2.html">About Us</a></li>
+                        <li class="hover:text-orange-500"><a>Services</a></li>
+                        <li class="hover:text-orange-500"><a>charset studies</a></li>
+                        <li class="hover:text-orange-500"><a>Testimonial</a></li>
+                        <li class="hover:text-orange-500"><a>Blog</a></li>
+
+                    </ul>
+                </div>
+                <div class="pr-2">
+                    <button class="btn text-white font-semibold bg-orange-500">Get In Touch</button>
+                </div>
+            </div>
+        </nav>
+        <!-- Banner  -->
+        <div class="bg-gradient-to-r from-red-100 pl-4  to-blue-100 ">
+            <div class="flex flex-col md:flex-row px-4 md:px-20 py-5 items-center md:gap-20 gap-5">
+                <div class="md:flex-1 space-y-4">
+                    <h3 class="text-5xl font-bold">Boost Your Ranking <br> With Link Building <br> Service</h3>
+                    <p class="text-wrap">Our link building services helps you boost your traffic and crush your
+                        competitors </p>
+                    <button class="btn text-white font-semibold bg-orange-500">Get Start Now</button>
+
+                    <div class="flex gap-5">
+                       
+                        <div
+                            class="avatar-group items-center w-[120px] rounded-full gap-2 -space-x-6 rtl:space-x-reverse">
+                            <div class="avatar">
+                                <div class="w-12 -rotate-45 ">
+                                    <img class="" src="/image/avatar/Avatar (1).jpg" />
+                                </div>
+                            </div>
+                            <div class="avatar">
+                                <div class="w-12   ">
+                                    <img class="" src="/image/avatar/Avatar (2).png" />
+                                </div>
+                            </div>
+                            <div class="avatar">
+                                <div class="w-12 ">
+                                    <img src="/image/avatar/Avatar (3).png" />
+                                </div>
+                            </div>
+                            <div class="avatar">
+                                <div class="w-12 ">
+                                    <img src="/image/avatar/Avatar4.png" />
+                                </div>
+                            </div>
+                            <div class="avatar">
+                                <div class="w-12 ">
+                                    <img src="/image/avatar/Avatar (1).jpg" />
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="rating gap-1 lg:w-[110px]">
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-500" />
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-500" />
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-500" />
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-500" />
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-500" checked />
+                                <p class="font-bold ml-2">5.0</p>
+
+                            </div>
+                            <p class="text-gray-600 text-sm font-semibold">from 200+ reviews</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:flex-1">
+                    <img class="md:w-[500px] w-[300px]" src="image/Ellipse 1876.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Trusted By -->
+        <section class="md:container mx-auto mt-8">
+            <h4 class="text-2xl font-semibold text-center">Trusted By</h4>
+            <p class="text-gray-600 text-center">Join 1,500+ Companies Already Growing</p>
+            <div class="my-6 ">
+                <div class=" flex flex-col lg:flex-row lg:gap-20 gap-5 items-center  justify-center ">
+                    <img src="image/vector/Vector (1).png" alt="">
+                    <img src="image/vector/Vector (2).png" alt="">
+                    <img src="image/vector/Vector (1).png" alt="">
+                    <img src="image/vector/Vector (1).png" alt="">
+                    <img src="image/vector/Group (5).png " alt="">
+                </div>
+            </div>
+        </section>
+        <!-- Case Studies  -->
+        <section class="mt-12">
+            <div class="text-center">
+                <p class="text-orange-500">Case Studies</p>
+                <h3 class="text-4xl font-bold">We're on a mission to help businesses <br> grow faster than ever</h3>
+            </div>
+            <!-- card 1-->
+            <div class="mt-12 lg:mx-12 grid grid-cols-1 p-4 md:grid-cols-3 gap-5">
+                <div class="card card-compact  bg-base-100 shadow-xl">
+                    <figure><img src="/image/Rectangle 4306.png" alt="Shoes" /></figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Gaming Niche</h2>
+                        <p>Building 55 high-quality links for a leading <br> gaming news publisher</p>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="card card-compact  bg-base-100 shadow-xl">
+                    <figure><img src="/image/Rectangle 4306 (2).png" alt="Shoes" /></figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Gaming Niche</h2>
+                        <p>Building 55 high-quality links for a leading <br> gaming news publisher</p>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="card card-compact  bg-base-100 shadow-xl">
+                    <figure><img src="/image/Rectangle 4306 (1).png" alt="Shoes" /></figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Gaming Niche</h2>
+                        <p>Building 55 high-quality links for a leading <br> gaming news publisher</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Our Services section -->
+        <section
+            class="bg-gradient-to-r from-purple-100 md:from-[#e3dcd3] justify-center md:gap-10  mt-8 flex flex-col md:flex-row items-center">
+            <!--  -->
+            <div class="flex flex-col items-center md:flex-row gap-4">
+
+                <div>
+                    <ul class="menu mb-4 col-span-2  pb-6 drop-shadow-2xl bg-base-100 mt-4 w-96 lg:w-60 py-10">
+                        <img class="w-[40px] my-4" src="image/icons/Icon1.png" alt="">
+                        <h4 class="text-xl font-bold mb-4">Link Building</h4>
+                        <p>Schedule daily, weekly, or custom email reports that deliver on your sch
+                            edule recipients to make</p>
+                    </ul>
+                    <ul class="menu mb-4 col-span-2 pb-6 drop-shadow-2xl bg-base-100 w-96 md:w-60 md:py-10">
+                        <img class="w-[40px] my-4" src="image/icons/Icon1.png" alt="">
+                        <h4 class="text-xl font-bold mb-4">High Authority Backlinks</h4>
+                        <p>Schedule daily, weekly, or custom email reports that deliver on your sch
+                            edule recipients to make</p>
+                    </ul>
+                </div>
+                <div class="md:mt-10">
+                    <ul class="menu mb-4 col-span-2 md:pb-6 drop-shadow-2xl bg-base-100 w-96 md:w-60 md:py-10">
+                        <img class="w-[40px] my-4" src="image/icons/Icon1.png" alt="">
+                        <h4 class="text-xl font-bold mb-4">Keyword Recherche </h4>
+                        <p>Schedule daily, weekly, or custom email reports that deliver on your sch
+                            edule recipients to make</p>
+                    </ul>
+                    <ul class="menu mb-4 col-span-2 pb-6 drop-shadow-2xl bg-base-100 w-96 md:w-60 md:py-12   ">
+                        <img class="w-[40px] my-4" src="image/icons/Icon1.png" alt="">
+                        <h4 class="text-xl font-bold mb-4">Targeted Links</h4>
+                        <p>Schedule daily, weekly, or custom email reports that deliver on your sch
+                            edule recipients to make</p>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="p-4 space-y-4">
+                <p class="text-orange-500 font-semibold">Our Services</p>
+                <h3 class="text-4xl font-bold">We Offer Professional <br> Services for Your Business</h3>
+                <p class="text-gray-500">Integer mus sollicitudin non dui. Congue ultricies <br> nec dis at dictum orci.
+                    Integer mus sollicitudin <br> non dui. Congue ultricies nec dis at.</p>
+                <button class="btn bg-orange-600 text-white">Get In Touch</button>
+            </div>
+        </section>
+        <!-- About us -->
+        <section class="md:container mx-auto  my-10">
+            <div class="flex flex-col md:flex-row justify-center  items-center  lg:gap-10">
+                <div class=" space-y-4 p-6">
+                    <p class="text-orange-500 font-semibold">About Us</p>
+                    <h3 class="text-3xl font-bold">We Help Companies To Growth <br> Business & Increase In Sales</h3>
+                    <p>Dalio started with a vision for building an agency to solve the business <br> problems of the
+                        future,
+                        and that requires a different model. We’re not a <br> branding agency that dabbles in tech, and
+                        we’re
+                        not a development <br> shop that leaves you hanging.</p>
+                    <p>We start with human experience and layer in technology and marketing <br> to deliver truly
+                        integrated
+                        digital solutions.
+                        This unique set of capab <br> ilities sets us apart from other agencies and positions DIG to
+                        <br>
+                        help you attack your goals.
+                    </p>
+                    <button class="btn bg-orange-600 text-white">Get In Touch</button>
+                </div>
+                <div>
+                    <img class="md:w-[450px] p-4" src="image/Rectangle 133.png" alt="">
+                </div>
+            </div>
+            <!-- Job Completed -->
+            <div style="background-image: url(https://i.ibb.co/KLjjv1x/bgimage.png);"
+                class="bg-orange-500 lg:mx-24 mt-10  py-10 rounded-lg p-10">
+                <div class="flex text-center justify-between">
+                    <ul>
+                        <h3 class="text-3xl  font-semibold text-white">4.8k</h3>
+                        <p class="text-white">Job Completed</p>
+                    </ul>
+                    <ul>
+                        <h3 class="text-3xl  font-semibold text-white">12+</h3>
+                        <p class="text-white">Industry Experience</p>
+                    </ul>
+                    <ul>
+                        <h3 class="text-3xl  font-semibold text-white">2.5k+</h3>
+                        <p class="text-white">World wide clients/p>
+                    </ul>
+                    <ul>
+                        <h3 class="text-3xl  font-semibold text-white">120+</h3>
+                        <p class="text-white ">Won Awards</p>
+                    </ul>
+                </div>
+                <div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Testimonial -->
+        <section class="mb-8 lg:mx-24">
+            <div class="text-center space-y-3">
+                <p class="font-semibold text-orange-500">Testimonial</p>
+                <h3 class="text-3xl font-semibold">What our clients are saying</h3>
+                <p class="text-gray-600 font-semibold">Lorem ipsum dolor sit amet consectetur. Mi vitae rutrum ipsum
+                    nisl. <br> Ullamcorper leo sed sapien ultricies.</p>
+            </div>
+            <!-- testimonial card -->
+            <div class="grid grid-cols-1 md:grid-cols-2 p-4 justify-center lg:grid-cols-3 lg:mx-32 lg:gap-40">
+                <!-- Card 1 -->
+                <div class="drop-shadow-2xl  rounded-xl  md:w-[320px] bg-base-100 my-10 p-4  ">
+                    <div class="">
+                        <img class="w-[60px] absolute  -mt-10 pl-4" src="image/Ellipse 147.png" alt="">
+                    </div>
+                    <div>
+                        <p class="text-gray-500 text-sm mt-4 mb-4">Integer mus sollicitudin non dui Congue ultri <br>
+                            cies nec dis at dictum orci a. In quisque et
+                            in consequat arcu lacus proin et sed.
+                            Viverra est nam eget imperdiet </p>
+                        <hr class=" border-gray-500">
+                    </div>
+                    <div class=" flex gap-5 justify-between">
+                        <div>
+                            <p class="font-bold">Robert Fox</p>
+                            <p class="text-gray-500 text-sm">CEO, Parkview Int. Ltd.</p>
+                        </div>
+                        <div class="rating md:w-[80px] mt-4">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-500" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-500" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-500" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-500" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-500" checked />
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="drop-shadow-2xl  rounded-xl  md:w-[320px] bg-base-100 my-10 p-4  ">
+                    <div class="">
+                        <img class="w-[60px] absolute  -mt-10 pl-4" src="image/testimonial.png" alt="">
+                    </div>
+                    <div>
+                        <p class="text-gray-500 text-sm mt-4 mb-4">Integer mus sollicitudin non dui Congue ultri <br>
+                            cies nec dis at dictum orci a. In quisque et
+                            in consequat arcu lacus proin et sed.
+                            Viverra est nam eget imperdiet </p>
+                        <hr class=" border-gray-500">
+                    </div>
+                    <div class=" flex gap-5 justify-between">
+                        <div>
+                            <p class="font-bold">Robert Fox</p>
+                            <p class="text-gray-500 text-sm">CEO, Parkview Int. Ltd.</p>
+                        </div>
+                        <div class="rating md:w-[80px] mt-4">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-500" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-500" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-500" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-500" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-500" checked />
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="drop-shadow-2xl  rounded-xl  md:w-[320px] bg-base-100 my-10 p-4  ">
+                    <div class="">
+                        <img class="w-[60px] absolute  -mt-10 pl-4" src="image/testimonial2.png" alt="">
+                    </div>
+                    <div>
+                        <p class="text-gray-500 text-sm mt-4 mb-4">Integer mus sollicitudin non dui Congue ultri <br>
+                            cies nec dis at dictum orci a. In quisque et
+                            in consequat arcu lacus proin et sed.
+                            Viverra est nam eget imperdiet </p>
+                        <hr class=" border-gray-500">
+                    </div>
+                    <div class=" flex gap-5 justify-between">
+                        <div>
+                            <p class="font-bold">Robert Fox</p>
+                            <p class="text-gray-500 text-sm">CEO, Parkview Int. Ltd.</p>
+                        </div>
+                        <div class="rating md:w-[80px] mt-4">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-500" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-500" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-500" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-500" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-500" checked />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- You May Ask What Link Building & Why Do You Need It?-->
+        <section class="bg-orange-100 ">
+            <div class="flex flex-col md:flex-row justify-center  items-center  ">
+                <div>
+                    <img class="lg:w-[550px] p-4" src="image/Image.png" alt="">
+                </div>
+                <div class=" space-y-4 p-6 text-gray-600">
+                    <h3 class="text-3xl font-bold">You May Ask What Link Building <br> & Why Do You Need It?</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur. Tempor aliquam ac nunc <br> maecenas vitae. Arcu massa
+                        ornare tortor
+                    </p>
+                    <p>Convallis commodo lectus nunc diam phasellus. Egestas laoreet <br> justo sed luctus porttitor.
+                        Consequat elementum turpis sed <br> tempus cursus. Urna consequat varius aliquet sed laoreet at
+                        <br> viverra dolor duis. Vulputate ac varius
+                    </p>
+                    <p>Ac cras sed aliquet vitae augue. Quis sed sit convallis amet etiam <br> phasellus. Pharetra
+                        pretium vitae et id aliquam porttitor. Duis risus <br> elit egestas ut leo ut pharetra. Eu
+                        faucibus lorem morbi mauris <br> quam lorem viverra. Morbi feugiat nisi vestibulum</p>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- FAQs -->
+        <section class="md:container md:mx-auto lg:my-10">
+            <div class="flex flex-col items-center  gap-5 md:flex-row justify-center ">
+                <div class="items-center  p-4 lg:ml-20 ">
+                    <p class="text-orange-500">FAQs</p>
+                    <h3 class="text-3xl mt-4 font-semibold">Frequently Asked Link <br> Building Questions</h3>
+                    <P class="text-gray-600 mt-10 font-semibold">Everything you need to know about the Link building.
+                        <br> Can’t find the answer you’re looking for? <br>
+                        Please <span class="text-orange-600 underline">chat to our team.</span>
+                    </P>
+                    <div class="mb-enc">
+                        <img class="w-[200px]  mt-8 mx-auto" src="image/faqs.png" alt="">
+                    </div>
+                </div>
+                <div class="lg:w-1/2 p-4">
+                    <div class="collapse collapse-plus ">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title  text-xl font-medium">
+                            What is a link-building service?
+                        </div>
+                        <div class="collapse-content text-sm">
+                            <p>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free,
+                                personalized 30-minute onboarding call to get you up and running as soon as possible..
+                            </p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus ">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-medium">
+                            What are the types of Link Building?
+                        </div>
+                        <div class="collapse-content">
+                            <p>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free,
+                                personalized 30-minute onboarding call to get you up and running as soon as possible.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus ">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-medium">
+                            How many links do I need?
+                        </div>
+                        <div class="collapse-content">
+                            <p>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free,
+                                personalized 30-minute onboarding call to get you up and running as soon as possible.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus ">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-medium">
+                            How do payments work?
+                        </div>
+                        <div class="collapse-content">
+                            <p>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free,
+                                personalized 30-minute onboarding call to get you up and running as soon as possible.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus ">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-medium">
+                            Can I cancel my subscription?
+                        </div>
+                        <div class="collapse-content">
+                            <p>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free,
+                                personalized 30-minute onboarding call to get you up and running as soon as possible.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus ">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-medium">
+                            How are links reported?
+                        </div>
+                        <div class="collapse-content">
+                            <p>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free,
+                                personalized 30-minute onboarding call to get you up and running as soon as possible.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus ">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-medium">
+                            How do we communicate?
+                        </div>
+                        <div class="collapse-content">
+                            <p>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free,
+                                personalized 30-minute onboarding call to get you up and running as soon as possible.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus ">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-medium">
+                            Is a link building service all I need?
+                        </div>
+                        <div class="collapse-content">
+                            <p>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free,
+                                personalized 30-minute onboarding call to get you up and running as soon as possible.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Blog -->
+        <section class="bg-[#FEFAF5]  mb-10 p-4 items-center  lg:pb-10">
+            <div class="md:container md:mx-auto pt-12">
+                <div class="space-y-3 lg:mx-12">
+                    <p class="text-[#FF6B31] font-semibold">Blog</p>
+                    <h3 class="text-3xl font-bold">Latest Link Building Blog</h3>
+                    <p class="text-[#525252]">Lorem ipsum dolor sit amet consectetur. Mi vitae rutrum ipsum nisl. <br>
+                        Ullamcorper leo sed sapien ultricies.</p>
+                </div>
+                <div class="mt-12 grid md:grid-cols-2 gap-4 items-center lg:mx-12  lg:grid-cols-3 ">
+                    <!-- blog card 1 -->
+                    <div class="card  card-compact lg:w-96  bg-base-100 shadow-xl">
+                        <figure><img class="lg:w-full lg:h-[280px]" src="image/Rectangle 4306 (3).png" alt="Shoes" />
+                        </figure>
+                        <div class="text-[#737373] mb-1 px-3 flex justify-between font-semibold">
+                            <p>By: Joinal Abden</p>
+                            <p>24 Nov 2023</p>
+                        </div>
+                        <div class="px-3">
+                            <h3 class="text-xl font-bold">3 Best Backlink Checker Tools <br> for 2023</h3>
+                            <hr class="border-dashed mt-2 border-gray-400">
+                            <div class="text-orange-500 flex items-center gap-4">
+                                <p class=" font-semibold py-4">Read More</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="12" viewBox="0 0 19 12"
+                                    fill="none">
+                                    <path
+                                        d="M8.27192 6.3607L8.27031 6.00661C8.27031 4.53497 8.36128 3.19332 8.49831 2.31871L8.61835 1.77483C8.68514 1.48678 8.77294 1.1588 8.86449 0.991371C9.19957 0.378924 9.85478 0 10.556 0H10.6171C11.0742 0.0143198 12.0346 0.394346 12.0346 0.407564C13.5799 1.02183 16.5612 2.87572 17.9381 4.19739L18.3382 4.59419C18.443 4.70173 18.5607 4.82901 18.6338 4.92822C18.8779 5.23444 19 5.61337 19 5.99229C19 6.41527 18.863 6.80852 18.6039 7.13016L18.1928 7.55047L18.1007 7.64017C16.8513 8.92344 13.5891 11.0218 11.8826 11.664L11.6249 11.7576C11.3149 11.8629 10.8805 11.9884 10.6171 12C10.282 12 9.96187 11.9262 9.65672 11.7808C9.27557 11.577 8.97158 11.2554 8.80346 10.8764C8.69637 10.6143 8.52825 9.82669 8.52825 9.81237C8.37412 9.01826 8.28476 7.76518 8.27192 6.3607ZM0 5.99956C0 5.1613 0.710476 4.48166 1.58677 4.48166L5.49151 4.80881C6.17896 4.80881 6.73628 5.34195 6.73628 5.99956C6.73628 6.65827 6.17896 7.19031 5.49151 7.19031L1.58677 7.51746C0.710476 7.51746 0 6.83782 0 5.99956Z"
+                                        fill="#FF6B31" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- blog card 2 -->
+                    <div class="card  card-compact lg:w-96 bg-base-100 shadow-xl">
+                        <figure><img class="lg:h-[280px]" src="image/Rectangle 4306 (4).png" alt="Shoes" /></figure>
+                        <div class="text-[#737373] mb-1 px-3 flex justify-between font-semibold">
+                            <p>By: Joinal Abden</p>
+                            <p>24 Nov 2023</p>
+                        </div>
+                        <div class="px-3">
+                            <h3 class="text-xl font-bold">3 Best Backlink Checker Tools <br> for 2023</h3>
+                            <hr class="border-dashed mt-2 border-gray-400">
+                            <div class="text-orange-500 flex items-center gap-4">
+                                <p class=" font-semibold py-4">Read More</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="12" viewBox="0 0 19 12"
+                                    fill="none">
+                                    <path
+                                        d="M8.27192 6.3607L8.27031 6.00661C8.27031 4.53497 8.36128 3.19332 8.49831 2.31871L8.61835 1.77483C8.68514 1.48678 8.77294 1.1588 8.86449 0.991371C9.19957 0.378924 9.85478 0 10.556 0H10.6171C11.0742 0.0143198 12.0346 0.394346 12.0346 0.407564C13.5799 1.02183 16.5612 2.87572 17.9381 4.19739L18.3382 4.59419C18.443 4.70173 18.5607 4.82901 18.6338 4.92822C18.8779 5.23444 19 5.61337 19 5.99229C19 6.41527 18.863 6.80852 18.6039 7.13016L18.1928 7.55047L18.1007 7.64017C16.8513 8.92344 13.5891 11.0218 11.8826 11.664L11.6249 11.7576C11.3149 11.8629 10.8805 11.9884 10.6171 12C10.282 12 9.96187 11.9262 9.65672 11.7808C9.27557 11.577 8.97158 11.2554 8.80346 10.8764C8.69637 10.6143 8.52825 9.82669 8.52825 9.81237C8.37412 9.01826 8.28476 7.76518 8.27192 6.3607ZM0 5.99956C0 5.1613 0.710476 4.48166 1.58677 4.48166L5.49151 4.80881C6.17896 4.80881 6.73628 5.34195 6.73628 5.99956C6.73628 6.65827 6.17896 7.19031 5.49151 7.19031L1.58677 7.51746C0.710476 7.51746 0 6.83782 0 5.99956Z"
+                                        fill="#FF6B31" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- blog card 3 -->
+                    <div class="card  card-compact lg:w-96 bg-base-100 shadow-xl">
+                        <figure><img class="lg:h-[280px]" src="image/Rectangle 4306 (5).png" alt="Shoes" /></figure>
+                        <div class="text-[#737373] mb-1 px-3 flex justify-between font-semibold">
+                            <p>By: Joinal Abden</p>
+                            <p>24 Nov 2023</p>
+                        </div>
+                        <div class="px-3">
+                            <h3 class="text-xl font-bold">3 Best Backlink Checker Tools <br> for 2023</h3>
+                            <hr class="border-dashed mt-2 border-gray-400">
+                            <div class="text-orange-500 flex items-center gap-4">
+                                <p class=" font-semibold py-4">Read More</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="12" viewBox="0 0 19 12"
+                                    fill="none">
+                                    <path
+                                        d="M8.27192 6.3607L8.27031 6.00661C8.27031 4.53497 8.36128 3.19332 8.49831 2.31871L8.61835 1.77483C8.68514 1.48678 8.77294 1.1588 8.86449 0.991371C9.19957 0.378924 9.85478 0 10.556 0H10.6171C11.0742 0.0143198 12.0346 0.394346 12.0346 0.407564C13.5799 1.02183 16.5612 2.87572 17.9381 4.19739L18.3382 4.59419C18.443 4.70173 18.5607 4.82901 18.6338 4.92822C18.8779 5.23444 19 5.61337 19 5.99229C19 6.41527 18.863 6.80852 18.6039 7.13016L18.1928 7.55047L18.1007 7.64017C16.8513 8.92344 13.5891 11.0218 11.8826 11.664L11.6249 11.7576C11.3149 11.8629 10.8805 11.9884 10.6171 12C10.282 12 9.96187 11.9262 9.65672 11.7808C9.27557 11.577 8.97158 11.2554 8.80346 10.8764C8.69637 10.6143 8.52825 9.82669 8.52825 9.81237C8.37412 9.01826 8.28476 7.76518 8.27192 6.3607ZM0 5.99956C0 5.1613 0.710476 4.48166 1.58677 4.48166L5.49151 4.80881C6.17896 4.80881 6.73628 5.34195 6.73628 5.99956C6.73628 6.65827 6.17896 7.19031 5.49151 7.19031L1.58677 7.51746C0.710476 7.51746 0 6.83782 0 5.99956Z"
+                                        fill="#FF6B31" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Get In Touch  -->
+        <section class="lg:mx-20 mt-10 mb-10">
+            <div class="text-center space-y-2">
+                <p class="text-orange-500 font-semibold">Get In Touch </p>
+                <h4 class="text-2xl font-bold">Start New Project With Us</h4>
+                <p class="text-[#525252]">Lorem ipsum dolor sit amet consectetur. Mi vitae rutrum ipsum nisl. <br>
+                    Ullamcorper leo sed sapien ultricies.</p>
+            </div>
+            <!--input div  -->
+            <div class="flex flex-col mt-10 justify-center lg:flex-row gap-10 items-center">
+                <form >
+                    <div class=" space-y-4">
+                        <div class="flex flex-col md:flex-row gap-4">
+                            <div class=" font-semibold">
+                                <label class="">
+                                    <p class="mb-1">Full name</p>
+                                    <input type="text" placeholder="First name"
+                                        class="input mb-2 input-bordered w-[300px] max-w-xs" />
+                                </label> <br>
+                                <label>
+                                    <p class="mb-1 mt-2">Your Website’s URL</p>
+                                    <input type="text" placeholder="Website Url"
+                                        class="input input-bordered w-[300px] max-w-xs" a />
+                                </label>
+                            </div>
+                            <div class="font-semibold">
+                                <label>
+                                    <p class="mb-1">Your Email</p>
+                                    <input type="text" placeholder="Your Email"
+                                        class="input mb-2 input-bordered w-[300px] max-w-xs" />
+                                </label> <br>
+                                <label class="form-control mt-2  w-[300px] max-w-xs">
+                                    <p class="mb-1">Budget</p>
+                                    <select class="select select-bordered">
+                                        <option disabled selected >Please Select</option>
+                                        <option>Home</option>
+                                        <option>About Us</option>
+                                        <option>Services</option>
+                                        <option>Case Studies </option>
+                                        <option>Testimonial</option>
+                                        <option>Blog</option>
+                                    </select>
+                                   
+                                </label>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="font-semibold mb-2"> What Services are you looking for?</p>
+                            <label class="form-control mt-2  w-full">
+                               
+                                <select class="select  select-bordered">
+                                    <option disabled selected class="text-gray-400 font-bold">Please Select</option>
+                                    <option>Home</option>
+                                    <option>About Us</option>
+                                    <option>Services</option>
+                                    <option>Case Studies </option>
+                                    <option>Testimonial</option>
+                                    <option>Blog</option>
+                                </select>
+                            </label>
+                        </div>
+                        <div>
+                            <div class="form-floating">
+                                <p class="font-semibold mb-1">Message</p>
+                                <textarea class="form-control w-full border rounded-lg p-2 border-gray-500 h-[92px]"
+                                    placeholder="Leave us a message..." id="floatingTextarea"></textarea>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <label class="cursor-pointer label">
+                                <input type="checkbox"  class="checkbox " />
+                            </label>
+                            <p class="font-semibold text-sm">You agree to our friendly <span
+                                    class="text-[#FF6B31] underline">privacy policy.</span></p>
+                        </div>
+                        <input  type="submit" value="Send message" class="w-full py-2 rounded text-white font-sans bg-[#FF6B31]">
+                    </div>
+                </form>
+                <!-- image -->
+                <div>
+                    <img class="w-[300px]  md:w-[400px] " src="image/message.png" alt="">
+                </div>
+            </div>
+         <!--  -->
+      
+        </section>
+    </main>
+ 
+    <footer style="background-image: url(https://i.ibb.co/yPb8W5p/footer.png);" class="footer justify-between p-10 lg:px-24 bg-[#FEFAF5] text-base-content ">
+
+        <aside class=" space-y-2 lg:ml-5">
+            <div class="flex items-center gap-2">
+                <img class="w-[30px]" src="/image/Vector (1).png" alt="">
+                <a class="text-xl font-semibold pr-10">OutreachSmartly</a>
+            </div>
+          <p>Lorem ipsum dolor sit amet consectetur. <br> Mi vitae rutrum ipsum nisl. Ullam <br>
+            corper lorem ipsum dolor </p>
+            <div >
+                <svg  xmlns="http://www.w3.org/2000/svg" width="196" height="40" viewBox="0 0 196 40" fill="none">
+                    <path opacity="0.1" d="M40 20C40 31.0457 31.0457 40 20 40C8.9543 40 0 31.0457 0 20C0 8.9543 8.9543 0 20 0C31.0457 0 40 8.9543 40 20Z" fill="#1877F2"/>
+                    <path d="M22.6946 13.7278H24.2436V11.0297C23.9764 10.9929 23.0573 10.9102 21.9869 10.9102C19.7534 10.9102 18.2234 12.3151 18.2234 14.8973V17.2738H15.7588V20.2902H18.2234V27.8799H21.2452V20.2909H23.6102L23.9856 17.2745H21.2445V15.1964C21.2452 14.3246 21.4799 13.7278 22.6946 13.7278Z" fill="#1877F2"/>
+                    <circle opacity="0.1" cx="72" cy="20" r="20" fill="#1D9BF0"/>
+                    <path d="M79.9236 14.912C79.3359 15.1796 78.7097 15.3571 78.0569 15.4432C78.7285 15.0268 79.2411 14.3725 79.4821 13.5838C78.8559 13.9714 78.1645 14.2453 77.4278 14.3981C76.8332 13.7407 75.9858 13.3335 75.0613 13.3335C73.2678 13.3335 71.8238 14.8453 71.8238 16.6986C71.8238 16.9653 71.8455 17.2217 71.8989 17.4658C69.2055 17.3294 66.8223 15.9889 65.2213 13.9468C64.9418 14.4504 64.7779 15.0268 64.7779 15.6473C64.7779 16.8125 65.3557 17.8453 66.2169 18.4432C65.6964 18.433 65.1858 18.2761 64.7532 18.0289C64.7532 18.0391 64.7532 18.0525 64.7532 18.0658C64.7532 19.7007 65.8762 21.0586 67.3487 21.3714C67.085 21.4463 66.7976 21.4822 66.4994 21.4822C66.292 21.4822 66.0826 21.4699 65.886 21.4248C66.3058 22.7571 67.4969 23.7366 68.9132 23.7684C67.811 24.6638 66.4115 25.2032 64.8964 25.2032C64.6307 25.2032 64.3759 25.1909 64.1211 25.1571C65.5562 26.1181 67.2569 26.6668 69.091 26.6668C75.0525 26.6668 78.3117 21.5386 78.3117 17.0935C78.3117 16.9448 78.3068 16.8012 78.2999 16.6586C78.9428 16.1848 79.4831 15.593 79.9236 14.912Z" fill="#1D9BF0"/>
+                    <circle opacity="0.1" cx="176" cy="20" r="20" fill="#398FEC"/>
+                    <path d="M183.196 27.2V27.1994H183.2V21.9178C183.2 19.3341 182.644 17.3438 179.623 17.3438C178.171 17.3438 177.196 18.1406 176.799 18.896H176.757V17.585H173.893V27.1994H176.875V22.4387C176.875 21.1852 177.112 19.9731 178.665 19.9731C180.194 19.9731 180.217 21.4036 180.217 22.5191V27.2H183.196Z" fill="#398FEC"/>
+                    <path d="M169.037 17.5864H172.023V27.2008H169.037V17.5864Z" fill="#398FEC"/>
+                    <path d="M170.529 12.7993C169.574 12.7993 168.8 13.574 168.8 14.5286C168.8 15.4833 169.574 16.2741 170.529 16.2741C171.484 16.2741 172.258 15.4833 172.258 14.5286C172.258 13.574 171.483 12.7993 170.529 12.7993V12.7993Z" fill="#398FEC"/>
+                    <circle cx="124" cy="20" r="20" fill="#FF6B31"/>
+                    <path d="M127.531 17.2674C127.964 17.2674 128.315 16.9165 128.315 16.4836C128.315 16.0506 127.964 15.6997 127.531 15.6997C127.098 15.6997 126.747 16.0506 126.747 16.4836C126.747 16.9165 127.098 17.2674 127.531 17.2674Z" fill="white"/>
+                    <path d="M124.05 16.4844C122.239 16.4844 120.766 17.958 120.766 19.7687C120.766 21.5794 122.239 23.0531 124.05 23.0531C125.861 23.0531 127.334 21.5794 127.334 19.7687C127.334 17.958 125.861 16.4844 124.05 16.4844ZM124.05 21.8695C122.89 21.8695 121.949 20.9288 121.949 19.7687C121.949 18.6086 122.89 17.668 124.05 17.668C125.21 17.668 126.151 18.6086 126.151 19.7687C126.159 20.9288 125.21 21.8695 124.05 21.8695Z" fill="white"/>
+                    <path d="M126.661 26.6668H121.338C119.128 26.6668 117.333 24.8718 117.333 22.6613V17.339C117.333 15.1285 119.128 13.3335 121.338 13.3335H126.661C128.871 13.3335 130.666 15.1285 130.666 17.339V22.6613C130.666 24.864 128.871 26.6668 126.661 26.6668ZM121.338 14.5798C119.818 14.5798 118.587 15.8105 118.587 17.3311V22.6535C118.587 24.1742 119.818 25.4048 121.338 25.4048H126.661C128.182 25.4048 129.412 24.1742 129.412 22.6535V17.3311C129.412 15.8105 128.174 14.5798 126.661 14.5798H121.338Z" fill="white"/>
+                  </svg>
+            </div>
+        </aside> 
+        <nav class="font-semibold text-[#525252]">
+          <h6 class="text-lg font-bold">Links</h6> 
+          <a class="link link-hover">Home page</a>
+          <a class="link link-hover">About Us</a>
+          <a class="link link-hover">Services</a>
+          <a class="link link-hover">Case Studies </a>
+        </nav> 
+        <nav  class="font-semibold text-[#525252]">
+          <h6 class="text-lg font-bold">Services</h6> 
+          <a >Fully Managed Link Building</a>
+          <a >White Label Link Building</a>
+          <a >High Authority Backlinks</a>
+          <a >Email Outreach Experts</a>
+        </nav> 
+        <nav class="text-[#525252] font-semibold">
+          <h6 class="font-bold text-lg">Contact </h6> 
+          <a >Email <br>
+            outreachsmartly@gmail.com
+          <a >Call Us <br>
+            1236 2456 2152 124</a>
+          
+        </nav>
+    
+    </footer>
+
+
+</body>
+
+</html>
